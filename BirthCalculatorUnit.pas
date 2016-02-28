@@ -30,6 +30,10 @@ begin
   5..19: Result := inttostr(YearsBetween(now,Getbirthdate))+ ' лет';
   end;
 
+   case (YearsBetween(now,Getbirthdate)) of
+  11..19: Result := inttostr(YearsBetween(now,Getbirthdate))+ ' лет';
+  end;
+
  // Result := inttostr(YearsBetween(now,Getbirthdate));
 
 end;
